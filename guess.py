@@ -8,10 +8,11 @@ myName = input()
 number = random.randint(1, 20)
 print(f'Well, {myName}, I am thinking of a number between 1 and 20')
 
-while guessesTaken < 6:
+while guessesTaken < 2:
     print('Take a guess.')
     guess = input()
     guess = int(guess)
+
 
     guessesTaken = guessesTaken + 1
 
@@ -31,4 +32,4 @@ if guess == number:
 
 if guess != number:
     # number = (str(number))
-    print(f'Nope. The bumber I was thinking of ear {number}')
+    print(f'Nope. The number I was thinking of was {number}')
