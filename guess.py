@@ -24,6 +24,7 @@ while guessesTaken < 6:
     if guess == number:
         break
 
+# with f string we don't need to convert the values
 if guess == number:
     # guessesTaken == str(guessesTaken)
     print(f'Good job, {myName}! You guessed my number in {guessesTaken} guesses!')
