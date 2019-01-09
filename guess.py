@@ -25,9 +25,9 @@ while guessesTaken < 6:
         break
 
 if guess == number:
-    guessesTaken == str(guessesTaken)
+    # guessesTaken == str(guessesTaken)
     print(f'Good job, {myName}! You guessed my number in {guessesTaken} guesses!')
 
 if guess != number:
-    number = (str(number))
+    # number = (str(number))
     print(f'Nope. The bumber I was thinking of ear {number}')
